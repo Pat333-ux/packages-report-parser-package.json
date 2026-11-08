@@ -1,0 +1,20 @@
+{
+  "name": "@credit-orchestrator/api-gateway",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "dependencies": {
+    "@credit-orchestrator/debt-optimizer": "*",
+    "@credit-orchestrator/dispute-generator": "*",
+    "@credit-orchestrator/fcra-rules-engine": "*",
+    "@credit-orchestrator/mortgage-handoff": "*",
+    "@credit-orchestrator/report-parser": "*",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  }
+}
