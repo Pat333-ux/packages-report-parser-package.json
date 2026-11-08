@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "../../packages/fcra-rules-engine" },
+    { "path": "../../packages/report-parser" },
+    { "path": "../../packages/dispute-generator" },
+    { "path": "../../packages/debt-optimizer" },
+    { "path": "../../packages/mortgage-handoff" }
+  ]
+}
